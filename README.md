@@ -15,3 +15,8 @@ login mysql from container:
 enter root password
 2.mysql -u root -p
 enter root password
+
+docker-compose.ymlwithsqlscripts
+--------------------------------
+This docker compose will create mysql container with sql scripts given in sql-scripts folder .This must be in the root folder for docker-compose
+sometimes you need to down docker compose by:docker-compose down before up.
