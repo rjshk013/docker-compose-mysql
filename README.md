@@ -40,7 +40,8 @@ index.html:
 Welcome to Docker Compose Tutorial
 
 then run commands :
-docker-compose build
-docker-compose up
+
+To build docker image as per the Docker file -docker-compose build
+To run docker containers -docker-compose up
 docker-compose up -d 
 
