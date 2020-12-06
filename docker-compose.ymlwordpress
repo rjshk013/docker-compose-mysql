@@ -5,7 +5,7 @@ version: '3.3'
 services:
   db:
     image: mysql:5.7
-    containername:wordpress_mysql
+    container_name: wordpress_mysql
     restart: always
     volumes:
       - db_data:/var/lib/mysql
@@ -15,7 +15,7 @@ services:
 
   wordpress:
     image: wordpress
-    containername:wordpress_site
+    container_name: wordpress_site
     restart: always
     volumes:
       - ./wp_data:/var/www/html
