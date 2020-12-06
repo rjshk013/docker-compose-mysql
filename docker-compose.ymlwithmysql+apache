@@ -6,6 +6,8 @@ services:
      restart: always
      environment:
         - MYSQL_ROOT_PASSWORD="secret"
+     ports:
+       - "6605:3306"
   web:
     image: apache
     build: /home/docker/webapp
