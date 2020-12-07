@@ -45,3 +45,8 @@ To build docker image as per the Docker file -docker-compose build
 To run docker containers -docker-compose up
 docker-compose up -d 
 
+docker-compose_postgres.yml
+----------------------------
+
+This will create postgres container as per the database.env file configured in the main folder
+
