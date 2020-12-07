@@ -3,6 +3,7 @@ services:
   database:
     image: postgres
     container_name: postgres_docker
+    restart: unless-stopped
     ports:
       - 5643:5432
     env_file:
