@@ -50,3 +50,7 @@ docker-compose_postgres.yml
 
 This will create postgres container as per the database.env file configured in the main folder
 
+docker-compose_jenkins.yml
+---------------------------
+This will create jenkins container as per the image name given in compose file.You may need to change image,ports,volume etc
+
